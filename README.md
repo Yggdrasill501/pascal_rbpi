@@ -32,10 +32,6 @@ then you have to install this git repo
 -Fu/home/yourusername/fpcwasm/lib/fpc/$fpcversion/units/$fpctarget/rtl
 #endif
 ```
-
-## Enncryption 
-Cesar Cipher model
-
 ## Sources
 - [Free Pascal](https://www.freepascal.org/)
 - [Wasm](https://webassembly.org/)
@@ -44,4 +40,10 @@ Cesar Cipher model
 - [Fpc Repo](https://gitlab.com/freepascal.org/fpc/source)
 - [Pascal to javasript blog](https://samadhiweb.com/blog/2022.04.09.fpc.wasm.html)
 - [Pascal to javasript wiki](https://wiki.freepascal.org/pas2js)
+
+# Project 
+## Encryption
+For encryption i chose simple Cesar cipher encryption [Cesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
+
+
 
