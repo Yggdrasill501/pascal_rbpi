@@ -67,4 +67,13 @@ begin
   document.getElementById('btnSave').addEventListener('click', @btnSaveClick);
 end;
 
+var
+  ServiceInput: TLabeledInput;
+  AddButton: TWebButton;
+
+begin
+  ServiceInput := TLabeledInput.Create(SomeParentHTMLElement, 'Service Name');
+  AddButton := TWebButton.Create(SomeParentHTMLElement, 'Add Password', @SomeOnClickProcedure);
+end;
+
 end.
