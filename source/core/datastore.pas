@@ -5,7 +5,7 @@ unit datastore;
 interface
 
 uses
-  Classes, SysUtils, encryption;
+  Classes, SysUtils, core/encryption;
 
 const
   DATA_FILE = 'passwords.dat';
